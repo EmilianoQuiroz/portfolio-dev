@@ -1,7 +1,9 @@
+"use client"
+
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetClose, SheetContent, SheetFooter, SheetTrigger } from '@/components/ui/sheet'
 import { Menu } from 'lucide-react'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { navigationItems } from './Navbar'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -9,8 +11,13 @@ import { cn } from '@/lib/utils'
 
 export function MobileMenu() {
     const location = usePathname()
+    const [open, setOpen] = useState(false)
+
+    useEffect(() => {
+        setOpen(false)
+    },[location])
   return (
-    <Sheet>
+    <Sheet open={open} onOpenChange={(state) => setOpen(state)}>
         <SheetTrigger asChild>
             <Button variant="outline" size="icon">
                 <Menu className="h-4 w-4"/>
