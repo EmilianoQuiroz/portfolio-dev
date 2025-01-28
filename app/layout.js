@@ -1,11 +1,11 @@
-import { Outfit as OutfitFont, Ovo } from "next/font/google";
+import { Outfit, Ovo} from "next/font/google";
 import "./globals.css";
 
-const outfit = OutfitFont({
+const outfitFont = Outfit({
   subsets: ["latin"], weight: ["400", "500", "600", "700"],
 });
 
-const ovo = Ovo({
+const ovoFont = Ovo({
   subsets: ["latin"], weight: ["400"],
 });
 export const metadata = {
@@ -15,9 +15,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body
-        className={`${outfit.className} ${ovo.className} antialiased`}
+        className={`${outfitFont.className} ${ovoFont.className} antialiased`}
       >
         {children}
       </body>
