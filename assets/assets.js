@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './foto-perfil.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -8,6 +8,8 @@ import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
+import docker from './docker.png';
+import aws from './aws.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
@@ -49,6 +51,8 @@ export const assets = {
     firebase,
     figma,
     git,
+    docker,
+    aws,
     mongodb,
     right_arrow_white,
     logo,
@@ -111,12 +115,12 @@ export const serviceData = [
 
 // Informacion de la Experiencia //
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Javascript,Typescript, React, React Native' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'UTN Tec. Programacion' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'More than 3 apps on PlayStore' }
 ];
 
 // Informacion de las Herramientas //
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.docker, assets.aws
 ];
