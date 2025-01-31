@@ -22,6 +22,7 @@ import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
 import moon_icon from './moon_icon.png';
+import game_icon from './game-icon.png';
 import sun_icon from './sun_icon.png';
 import arrow_icon from './arrow-icon.png';
 import arrow_icon_dark from './arrow-icon-dark.png';
@@ -78,7 +79,8 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    game_icon
 };
 
 // Informacion de los Proyectos //
@@ -107,10 +109,10 @@ export const workData = [
 
 // Informacion de los Servicios //
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    { icon: assets.web_icon, title: 'Web Developer', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.mobile_icon, title: 'Mobile Developer', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.game_icon, title: 'Game Developer', description: 'Creating games with Unreal Engine and C++...', link: '' },
 ]
 
 // Informacion de la Experiencia //
