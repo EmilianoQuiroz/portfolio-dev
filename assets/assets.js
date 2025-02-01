@@ -87,18 +87,28 @@ export const assets = {
 export const workData = [
     {
         title: 'Next.js LMS App',
-        description: 'AWS, Docker, Lambda, Clerk, DynamoDB, ECR, S3, Shadcn, Node',
+        description: 'AWS, Docker, Lambda, DynamoDB, ECR, S3',
         bgImage: '/work-1.png',
     },
     {
         title: 'MERN Job Portal App',
-        description: 'React js, Express js. Node js, Clerk Auth',
+        description: 'React js, Express js, Node js, Clerk Auth',
         bgImage: '/work-2.png',
     },
     {
         title: 'MERN Services App',
         description: 'React.js, Hygraph , Tailwind css',
         bgImage: '/work-3.png',
+    },
+    {
+        title: 'MERN Books Store App',
+        description: 'React.js, Express.js, Node.js, MongoDB',
+        bgImage: '/work-4.png',
+    },
+    {
+        title: 'MERN Books Store App',
+        description: 'React.js, Express.js, Node.js, MongoDB',
+        bgImage: '/work-4.png',
     },
     {
         title: 'MERN Books Store App',
