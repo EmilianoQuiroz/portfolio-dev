@@ -100,21 +100,6 @@ export const workData = [
         description: 'React.js, Hygraph , Tailwind css',
         bgImage: '/work-3.png',
     },
-    {
-        title: 'MERN Books Store App',
-        description: 'React.js, Express.js, Node.js, MongoDB',
-        bgImage: '/work-4.png',
-    },
-    {
-        title: 'MERN Books Store App',
-        description: 'React.js, Express.js, Node.js, MongoDB',
-        bgImage: '/work-4.png',
-    },
-    {
-        title: 'MERN Books Store App',
-        description: 'React.js, Express.js, Node.js, MongoDB',
-        bgImage: '/work-4.png',
-    },
 ]
 
 // Informacion de los Servicios //

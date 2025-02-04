@@ -1,5 +1,5 @@
 import { assets, workData } from '@/assets/assets'
-import Image from 'next/image'
+import Image from 'next/image' 
 import React from 'react'
 
 const Work = () => {
