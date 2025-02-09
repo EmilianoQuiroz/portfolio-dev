@@ -10,8 +10,9 @@ import firebase from './firebase.png';
 import figma from './figma.png';
 import docker from './docker.png';
 import aws from './aws.png';
+import aws_dark from './aws-logo-dark.png';
 import git from './git.png';
-import mongodb from './mongodb.png';
+import mongodb from './mongoDB.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -54,6 +55,7 @@ export const assets = {
     git,
     docker,
     aws,
+    aws_dark,
     mongodb,
     right_arrow_white,
     logo,
@@ -119,5 +121,11 @@ export const infoList = [
 
 // Informacion de las Herramientas //
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.docker, assets.aws
+    { icon:assets.vscode, darkIcon:assets.vscode},
+    { icon:assets.firebase, darkIcon:assets.firebase},
+    { icon:assets.mongodb, darkIcon:assets.mongodb},
+    { icon:assets.figma, darkIcon:assets.figma},
+    { icon:assets.git, darkIcon:assets.git},
+    { icon:assets.docker, darkIcon:assets.docker},
+    { icon:assets.aws, darkIcon:aws_dark},
 ];
