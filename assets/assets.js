@@ -114,7 +114,7 @@ export const serviceData = [
 
 // Informacion de la Experiencia //
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Javascript,Typescript, React, React Native' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Javascript, Typescript, React, React Native' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'UTN Tec. Programacion' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'More than 3 apps on PlayStore' }
 ];
