@@ -2,7 +2,7 @@ import { assets, workData } from '@/assets/assets'
 import Image from 'next/image' 
 import React from 'react'
 
-const Work = () => {
+const Work = ({isDarkmode}) => {
   return (
     <div id='work' className='w-full min-h-screen flex items-center justify-center px-4 sm:px-[12%] py-10 scroll-mt-20'>
       <div className='w-full max-w-7xl flex flex-col items-center'>
@@ -11,7 +11,7 @@ const Work = () => {
         <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
           I am a frontend developer with 3 years of experience in React and React Native. I have several full-stack projects and mobile applications published in the PlayStore.
         </p>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full dark:text-black'>
           {workData.map((project, index) => (
             <div 
               className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group' 
@@ -30,8 +30,8 @@ const Work = () => {
             </div>
           ))}
         </div>
-        <a href='' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto mt-20 hover:bg-lightHover duration-500'>
-            Show more <Image src={assets.right_arrow_bold} alt='right-arrow-bold' className='w-4' />
+        <a href='' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto mt-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>
+            Show more <Image src={isDarkmode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt='right-arrow-bold' className='w-4' />
         </a>
       </div>
     </div>

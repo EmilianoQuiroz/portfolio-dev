@@ -15,8 +15,8 @@ const Header = () => {
       </p>
       {/*-----------------Botones-----------------*/}
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-8'>
-        <a href="#contact" className='px-10 py-3 border rounded-full border-white bg-black text-white flex items-center gap-2'>contact me <Image src={assets.right_arrow_white} alt='rignt-arrow' className='w-4' /></a>
-        <a href="/cv-dev-en.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>download CV <Image src={assets.download_icon} alt='download' className='w-4' /></a>
+        <a href="#contact" className='px-10 py-3 border rounded-full border-white bg-black text-white flex items-center gap-2 dark:bg-transparent'>contact me <Image src={assets.right_arrow_white} alt='rignt-arrow' className='w-4' /></a>
+        <a href="/cv-dev-en.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>download CV <Image src={assets.download_icon} alt='download' className='w-4' /></a>
       </div>
     </div>
   )
