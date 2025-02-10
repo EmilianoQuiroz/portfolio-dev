@@ -26,12 +26,12 @@ const Footer = (isDarkmode) => {
           {/* Enlaces */}
           <ul className='flex items-center gap-6 justify-center'>
             <li>
-              <a target='_blank' href="https://github.com/EmilianoQuiroz" className='hover:text-red-600 transition-colors'>
+              <a target='_blank' rel='noopener noreferrer' href="https://github.com/EmilianoQuiroz" className='hover:text-red-600 transition-colors'>
                 GitHub
               </a>
             </li>
             <li>
-              <a target='_blank' href="https://www.linkedin.com/in/santiago-quiroz-dev/" className='hover:text-red-600 transition-colors'>
+              <a target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/santiago-quiroz-dev/" className='hover:text-red-600 transition-colors'>
                 LinkedIn
               </a>
             </li>
