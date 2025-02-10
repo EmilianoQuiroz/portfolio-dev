@@ -99,7 +99,7 @@ const About = ({ isDarkmode }) => {
               transition={{ duration: 0.5, delay: 1.3 }} 
               className="my-6 text-gray-700 font-Ovo dark:text-white text-lg lg:text-xl text-center lg:text-left"
             >
-              Tools I use
+              My Stack
             </motion.h2>
             <motion.ul
               initial={{ opacity: 0 }}

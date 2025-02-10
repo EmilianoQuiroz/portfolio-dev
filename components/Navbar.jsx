@@ -33,7 +33,7 @@ const Navbar = ({isDarkmode, setIsDarkmode}) => {
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}`}>
         <a href="#top">
             {/* <Image alt= 'logo' src={assets.logo} className='w-28 cursor-pointer mr-14'/> */}
-            <h1 className='text-2xl font-outfit text-black w-28 cursor-pointer mr-14 dark:text-white'>Santiago<span className='text-red-600'>Quiroz</span></h1>
+            <h1 className='text-2xl font-outfit text-black w-28 cursor-pointer mr-14 dark:text-white'>Santiago<span className='text-rose-500'>Quiroz</span></h1>
         </a>
         {/*-----------------Secciones-----------------*/}
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-md bg-opacity-60 dark:border dark:border-white/50 dark:bg-transparent"}`}>

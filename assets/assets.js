@@ -10,6 +10,10 @@ import firebase from './firebase.png';
 import figma from './figma.png';
 import docker from './docker.png';
 import aws from './aws.png';
+import react from './react.png';
+import react_dark from './react_dark.png';
+import javascript from './javascript.png';
+import typescript from './typescript.png';
 import aws_dark from './aws-logo-dark.png';
 import git from './git.png';
 import mongodb from './mongoDB.png';
@@ -54,6 +58,10 @@ export const assets = {
     figma,
     git,
     docker,
+    javascript,
+    typescript,
+    react,
+    react_dark,
     aws,
     aws_dark,
     mongodb,
@@ -121,11 +129,13 @@ export const infoList = [
 
 // Informacion de las Herramientas //
 export const toolsData = [
+    { icon:assets.javascript, darkIcon:assets.javascript},
+    { icon:assets.typescript, darkIcon:assets.typescript},
+    { icon:assets.react, darkIcon:assets.react_dark},
+    { icon:assets.git, darkIcon:assets.git},
     { icon:assets.vscode, darkIcon:assets.vscode},
     { icon:assets.firebase, darkIcon:assets.firebase},
     { icon:assets.mongodb, darkIcon:assets.mongodb},
-    { icon:assets.figma, darkIcon:assets.figma},
-    { icon:assets.git, darkIcon:assets.git},
     { icon:assets.docker, darkIcon:assets.docker},
     { icon:assets.aws, darkIcon:aws_dark},
 ];
