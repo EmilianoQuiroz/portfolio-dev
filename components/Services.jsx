@@ -35,13 +35,13 @@ const Services = ({isDarkmode}) => {
             transition={{duration: 0.5, delay: 0.7}}
             className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'
           >
-              I am a frontend developer with 3 years of experience in React and React Native. I have several full-stack projects and mobile applications published in the PlayStore.
+            With more than 3 years of web and mobile frontend experience, also with one year of experience in game development with Unreal Engine. I offer the following services:
           </motion.p>
           <motion.div
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
             transition={{duration: 0.6, delay: 0.9}} 
-            className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10'
+            className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-10 '
           >
             {serviceData.map(({icon, title, description, link}, index) =>(
               <motion.div
@@ -54,7 +54,7 @@ const Services = ({isDarkmode}) => {
                 <p className='text-sm text-gray-600 leading-5 dark:text-white/70'>
                   {description}
                 </p>
-                <a href={link} className='flex items-center mt-5 gap-2 text-sm'>
+                <a href={link} target='_blank' rel='noopener noreferrer' className='flex items-center mt-5 gap-2 text-sm'>
                   Read more <Image alt='read-more' src={isDarkmode ? assets.right_arrow_bold_dark :assets.right_arrow} className='w-4' />
                 </a>
               </motion.div>

@@ -61,7 +61,7 @@ const About = ({ isDarkmode }) => {
           >
             {/* Descripción */}
             <p className="mb-10 max-w-2xl font-Ovo text-base lg:text-lg mx-auto lg:mx-0">
-              I am a front-end web and mobile developer with more than three years of experience in software development for companies and as a freelancer. My most used technologies are Typescript, React, React Native, Node, Express and MongoDB. A fact to highlight is that in my free time I develop video games in Unreal Engine and C++, another of my hobbies related to video games is 3D art in Blender.
+            I began my career as a freelance developer over three years ago. Afterward, I joined my first company, FKTech, as a software developer. During my year there, I worked extensively with technologies like TypeScript, React, Next.js, React Native, Material UI, and Nest.js. Following this experience, I decided to emigrate from Argentina to Portugal. A year ago, I transitioned back to freelance work, focusing on Frontend development. Additionally, I pursue my passion for video game development using Unreal Engine and C++.
             </p>
 
             {/* Lista de información */}

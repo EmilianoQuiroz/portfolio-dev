@@ -5,8 +5,9 @@ import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
-import vscode from './vscode.png';
-import firebase from './firebase.png';
+
+import tailwind from './tailwind.png';
+import material from './material.png';
 import figma from './figma.png';
 import docker from './docker.png';
 import aws from './aws.png';
@@ -52,8 +53,6 @@ export const assets = {
     edu_icon_dark,
     project_icon,
     project_icon_dark,
-    vscode,
-    firebase,
     figma,
     git,
     docker,
@@ -61,6 +60,8 @@ export const assets = {
     typescript,
     react,
     react_dark,
+    tailwind,
+    material,
     aws,
     aws_dark,
     right_arrow_white,
@@ -97,32 +98,34 @@ export const workData = [
         title: 'Next.js LMS App',
         description: 'AWS, Docker, Lambda, DynamoDB, ECR, S3',
         bgImage: '/work-1.png',
+        link: 'https://github.com/EmilianoQuiroz/learning-manage-system'
     },
     {
         title: 'MERN Job Portal App',
         description: 'React js, Express js, Node js, Clerk Auth',
         bgImage: '/work-2.png',
+        link: 'https://github.com/EmilianoQuiroz/it-jobs-portugal'
     },
     {
-        title: 'MERN Services App',
-        description: 'React.js, Hygraph , Tailwind css',
+        title: 'MERN Stack Ecommerce',
+        description: 'React.js, Node, MongoDB, Express, Redux',
         bgImage: '/work-3.png',
+        link: 'https://github.com/EmilianoQuiroz/mern-stack-ecommerce'
     },
 ]
 
 // Informacion de los Servicios //
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web Developer', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile Developer', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.game_icon, title: 'Game Developer', description: 'Creating games with Unreal Engine and C++...', link: '' },
+    { icon: assets.web_icon, title: 'Web Developer', description: 'Development of responsive components and layouts with react and Next...', link: 'https://github.com/EmilianoQuiroz' },
+    { icon: assets.mobile_icon, title: 'Mobile Developer', description: 'Modern and stylish app development with React Native...', link: 'https://github.com/EmilianoQuiroz' },
+    { icon: assets.game_icon, title: 'Game Developer', description: 'Game development with Unreal Engine, programming logic with C++ and blueprints...', link: 'https://github.com/EmilianoQuiroz' },
 ]
 
 // Informacion de la Experiencia //
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Javascript, Typescript, React, React Native' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Areas', description: 'Web dev, Mobile dev, Game dev' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'UTN Tec. Programacion' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'More than 3 apps on PlayStore' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'More than 3 projects deployed' }
 ];
 
 // Informacion de las Herramientas //
@@ -130,9 +133,10 @@ export const toolsData = [
     { icon:assets.javascript, darkIcon:assets.javascript},
     { icon:assets.typescript, darkIcon:assets.typescript},
     { icon:assets.react, darkIcon:assets.react_dark},
+    { icon:assets.tailwind, darkIcon:assets.tailwind},
+    { icon:assets.material, darkIcon:assets.material},
+    { icon:assets.figma, darkIcon:assets.figma},
     { icon:assets.git, darkIcon:assets.git},
-    { icon:assets.vscode, darkIcon:assets.vscode},
-    { icon:assets.firebase, darkIcon:assets.firebase},
     { icon:assets.docker, darkIcon:assets.docker},
     { icon:assets.aws, darkIcon:aws_dark},
 ];

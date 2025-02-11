@@ -34,7 +34,7 @@ const Header = () => {
         transition={{duration: 0.6, delay: 0.7}} 
         className='max-w-2xl mx-auto font-Ovo'
       >
-        I am a web and mobile front-end developer from Argentina width 3 years of experience in software development. I am passionate about creating beautiful and functional websites and applications that help people achieve their goals.
+        I am a developer from Argentina living in Portugal. I have 3 years of experience in software development. I am passionate about Frontend development of web and mobile applications, but I also have experience in game development with Unreal Engine and C++. I am always looking for new challenges and opportunities to learn and grow.
       </motion.p>
       {/*-----------------Botones-----------------*/}
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-8'>
