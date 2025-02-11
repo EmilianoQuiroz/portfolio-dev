@@ -48,7 +48,7 @@ const Header = () => {
           contact me <Image src={assets.right_arrow_white} alt='rignt-arrow' className='w-4' />
         </motion.a>
         <motion.a 
-          href="/cv-dev-en.pdf" 
+          href="/cv-santiagoquiroz-en.pdf" 
           download 
           initial={{y:30, opacity: 0}}
           whileInView={{y:0, opacity: 1}}
